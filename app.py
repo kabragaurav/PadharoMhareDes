@@ -2,7 +2,7 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(
-    page_title="Explore Gaurav Kabra's Portfolio",
+    page_title="Gaurav Kabra",
     page_icon="🌐",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -43,12 +43,13 @@ with st.container():
     st.markdown("<div class='main-content'>", unsafe_allow_html=True)
     
     # Heading and description
-    st.title("Welcome to My World!")
-    st.subheader("Explore my projects, skills, and more on my website.")
+    st.title("Welcome to Gaurav's App!")
+    st.subheader("Explore more on my portfolio.")
     
     # Button to open website
+    # Button to open website in a new tab
     if st.button("Visit My Website"):
-        st.write("Redirecting to my website...")
-        st.markdown("[Visit Gaurav Kabra's Website](https://gauravkabra.netlify.app/)")
+        st.markdown("<a href='https://gauravkabra.netlify.app/' target='_blank' rel='noopener noreferrer'>Visit portfolio!</a>", unsafe_allow_html=True)
+
     
     st.markdown("</div>", unsafe_allow_html=True)
