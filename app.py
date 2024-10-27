@@ -48,8 +48,8 @@ with st.container():
     
     # Button to open website
     # Button to open website in a new tab
-    if st.button("Visit My Website"):
-        st.markdown("<a href='https://gauravkabra.netlify.app/' target='_blank' rel='noopener noreferrer'>Visit portfolio!</a>", unsafe_allow_html=True)
+    if st.button("Visit Postfolio"):
+        st.markdown("<a href='https://gauravkabra.netlify.app/' target='_blank' rel='noopener noreferrer'>Let's go!</a>", unsafe_allow_html=True)
 
     
     st.markdown("</div>", unsafe_allow_html=True)
